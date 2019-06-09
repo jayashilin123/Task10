@@ -18,8 +18,11 @@ library(randomForest)
 library(caret)
 
 # Load the data
-data <- read.csv("indian_liver_patient.csv", header=TRUE, 
-                 na.strings = c("NA","na",""," ","?"), stringsAsFactors = FALSE)
+# data <- read.csv("indian_liver_patient.csv", header=TRUE, 
+#                  na.strings = c("NA","na",""," ","?"), stringsAsFactors = FALSE)
+
+# Load the data
+load("rdas/data.rda")
 
 # Aim here is to:
 # Explore the dataset and the variables, 
