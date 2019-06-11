@@ -548,3 +548,5 @@ varImpPlot(rf.model)
 ```
 
 ![](Indian_liver_patient_record_files/figure-markdown_github/unnamed-chunk-39-1.png)
+
+Alkaline Phosphatase, Aspartate Aminotransferase and Alamine Aminotransferase are 3 most important variables in classfying the dataset. We already saw that the values of these variables in the 2 groups varied widly.
